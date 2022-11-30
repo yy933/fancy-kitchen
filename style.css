@@ -1,0 +1,94 @@
+html,
+body {
+  font-family: "Lora", "Roboto", "Lato", sans-serif;
+}
+
+.navbar {
+  background-color: #80cbc4;
+  opacity: 0.8;
+}
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar-nav {
+  align-items: center;
+  color: black;
+  font-size: 17px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #348c7c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flip-card {
+  position: relative;
+}
+
+.card-img-top {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.details {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /*   text-align: center; */
+}
+
+.flip-card:hover .card-img-top {
+  opacity: 0.5;
+}
+
+.flip-card:hover .details {
+  opacity: 1;
+}
+
+.middle-text {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  background-color: #348c7c;
+  padding: 10px 25px;
+  border-radius: 6px;
+}
+
+.cardContent-list {
+  margin: 0;
+  padding: 0;
+}
+
+.ingredient_list {
+  margin-bottom: 2px;
+}
+
+.add-tobottom: 50px-cart-in-modal {
+  margin: 5px 28px;
+}
+
+.chatbot {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
